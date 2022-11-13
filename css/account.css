@@ -1,0 +1,35 @@
+﻿.accBox {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    box-shadow: 0px 0px 40px 10px white;
+    background-image: url('images/bg1.jpg');
+    border: 1px solid black;
+    border-radius:10px;
+}
+.lblChange1{
+    text-align:left;
+    padding-left:1rem;
+    margin-bottom:0px;
+    font-family:'Bookman Old Style';
+    -webkit-text-stroke:0.5px white;
+}
+.divUser,.divPass{
+    padding:4px 7px 50px 4px;
+}
+
+#txtboxUser, #txtboxCurrent, #txtboxNew, #txtboxConfirm{
+    width:auto;
+}
+.btnSaveUser{
+    max-width:350px;
+    min-width:350px;
+    border:5px solid black;
+    transition:0.2s;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.btnSaveUser:hover{
+    transform:scale(1.02);
+}
