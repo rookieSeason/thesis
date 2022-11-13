@@ -1,2 +1,2 @@
 <?php
-$conn = new mysqli("localhost", "root", "", "db_relocation");
+$conn = new mysqli("localhost", "root", "", "db_relocation"); //dasddasd
